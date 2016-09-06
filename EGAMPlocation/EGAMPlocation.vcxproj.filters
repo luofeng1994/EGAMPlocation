@@ -45,6 +45,12 @@
     <ClInclude Include="Erf.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="posInitObtain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="general.c">
@@ -78,6 +84,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Erf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="posInitObtain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixTool.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

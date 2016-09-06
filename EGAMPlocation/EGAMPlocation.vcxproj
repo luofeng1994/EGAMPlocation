@@ -80,9 +80,11 @@
     <ClInclude Include="gaussNoiseGen.h" />
     <ClInclude Include="general.h" />
     <ClInclude Include="Malloc.h" />
+    <ClInclude Include="matrixTool.h" />
     <ClInclude Include="measureNumGen.h" />
     <ClInclude Include="noiMatGen.h" />
     <ClInclude Include="posData.h" />
+    <ClInclude Include="posInitObtain.h" />
     <ClInclude Include="toaMeasureGen.h" />
     <ClInclude Include="unqTayGAMPloc.h" />
     <ClInclude Include="wsnNetGen.h" />
@@ -93,9 +95,11 @@
     <ClCompile Include="general.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Malloc.c" />
+    <ClCompile Include="matrixTool.c" />
     <ClCompile Include="measureNumGen.c" />
     <ClCompile Include="noiMatGen.c" />
     <ClCompile Include="posData.c" />
+    <ClCompile Include="posInitObtain.c" />
     <ClCompile Include="toaMeasureGen.c" />
     <ClCompile Include="unqTayGAMPloc.c" />
     <ClCompile Include="wsnNetGen.c" />

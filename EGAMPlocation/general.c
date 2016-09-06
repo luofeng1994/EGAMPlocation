@@ -66,6 +66,8 @@ void paramInit(param *Param) {
 
 	Param->measureNum_anc=0;
 	Param->measureNum_rel=0;
+	Param->initMode=DVdist;
+	Param->measMode=TOA;
 
 	Param->gamParam.noiseUpdate=0;
 	Param->gamParam.iter_noise=12;

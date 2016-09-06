@@ -14,5 +14,4 @@ void toaMeasureGen(param *Param) {
 			Param->dist_anc[i][j]=Param->dist_anc_real[i][j]+genRealGauss(Param->noise_anc[i][j]);
 		}
 	}
-
 }

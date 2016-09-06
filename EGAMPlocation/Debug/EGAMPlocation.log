@@ -1,7 +1,7 @@
-﻿生成启动时间为 2016/7/21 14:08:28。
-     1>项目“G:\c_code\EGAMPlocation\EGAMPlocation\EGAMPlocation.vcxproj”在节点 2 上(Rebuild 个目标)。
+﻿生成启动时间为 2016/9/6 21:25:18。
+     1>项目“G:\c_code\EGAMPlocation\EGAMPlocation\EGAMPlocation.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\My Soft\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Erf.c gaussNoiseGen.c general.c main.c Malloc.c measureNumGen.c noiMatGen.c posData.c toaMeasureGen.c unqTayGAMPloc.c wsnNetGen.c
+         C:\My Soft\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Erf.c gaussNoiseGen.c general.c main.c Malloc.c matrixTool.c measureNumGen.c noiMatGen.c posData.c posInitObtain.c toaMeasureGen.c unqTayGAMPloc.c wsnNetGen.c
          wsnNetGen.c
      1>g:\c_code\egamplocation\egamplocation\wsnnetgen.c(44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          unqTayGAMPloc.c
@@ -31,21 +31,71 @@
      1>g:\c_code\egamplocation\egamplocation\unqtaygamploc.c(653): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
      1>g:\c_code\egamplocation\egamplocation\unqtaygamploc.c(654): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          toaMeasureGen.c
+         posInitObtain.c
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(13): warning C4101: “j”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(98): warning C4101: “j”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(128): warning C4101: “dist”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(129): warning C4101: “anc_pos”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(126): warning C4101: “j”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(155): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(157): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\my soft\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(164): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\my soft\microsoft visual studio 11.0\vc\include\string.h(115) : 参见“strcat”的声明
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(165): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\my soft\microsoft visual studio 11.0\vc\include\string.h(115) : 参见“strcat”的声明
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(166): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\my soft\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(185): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\posinitobtain.c(146): warning C4101: “j”: 未引用的局部变量
          posData.c
-     1>g:\c_code\egamplocation\egamplocation\posdata.c(3): warning C4305: “初始化”: 从“double”到“float”截断
-     1>g:\c_code\egamplocation\egamplocation\posdata.c(4): warning C4305: “初始化”: 从“double”到“float”截断
-     1>g:\c_code\egamplocation\egamplocation\posdata.c(5): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(10): warning C4101: “i”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(10): warning C4101: “j”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(19): warning C4101: “j”: 未引用的局部变量
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(33): warning C4305: “初始化”: 从“double”到“float”截断
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\posdata.c(30): warning C4101: “j”: 未引用的局部变量
          noiMatGen.c
      1>g:\c_code\egamplocation\egamplocation\noimatgen.c(10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
      1>g:\c_code\egamplocation\egamplocation\noimatgen.c(17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          measureNumGen.c
+         matrixTool.c
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(122): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(198): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(260): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(261): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(308): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(309): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(320): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(323): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(326): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(329): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(335): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(340): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(481): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(484): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(490): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\matrixtool.c(503): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          Malloc.c
          main.c
-     1>g:\c_code\egamplocation\egamplocation\main.c(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>g:\c_code\egamplocation\egamplocation\main.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\my soft\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\c_code\egamplocation\egamplocation\main.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\my soft\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
      1>g:\c_code\egamplocation\egamplocation\main.c(17): warning C4101: “j”: 未引用的局部变量
          general.c
-     1>g:\c_code\egamplocation\egamplocation\general.c(72): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>g:\c_code\egamplocation\egamplocation\general.c(74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          gaussNoiseGen.c
      1>g:\c_code\egamplocation\egamplocation\gaussnoisegen.c(14): warning C4305: “函数”: 从“double”到“float”截断
      1>g:\c_code\egamplocation\egamplocation\gaussnoisegen.c(15): warning C4305: “函数”: 从“double”到“float”截断
@@ -60,15 +110,17 @@
          Debug\general.obj
          Debug\main.obj
          Debug\Malloc.obj
+         Debug\matrixTool.obj
          Debug\measureNumGen.obj
          Debug\noiMatGen.obj
          Debug\posData.obj
+         Debug\posInitObtain.obj
          Debug\toaMeasureGen.obj
          Debug\unqTayGAMPloc.obj
          Debug\wsnNetGen.obj
          EGAMPlocation.vcxproj -> G:\c_code\EGAMPlocation\Debug\EGAMPlocation.exe
-     1>已完成生成项目“G:\c_code\EGAMPlocation\EGAMPlocation\EGAMPlocation.vcxproj”(Rebuild 个目标)的操作。
+     1>已完成生成项目“G:\c_code\EGAMPlocation\EGAMPlocation\EGAMPlocation.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.40
+已用时间 00:00:01.10

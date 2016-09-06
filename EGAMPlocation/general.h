@@ -10,7 +10,7 @@
 #define ANCHORS 15
 #define R 65
 #define DAMPGAMP 0.6
-#define N 30
+#define N 200
 #define DIM 2
 #define D N*DIM
 #define LMAX 100
@@ -58,6 +58,8 @@ typedef struct param {
 	float noise_anc[N][ANCHORS];
 	int measureNum_anc;
 	int measureNum_rel;
+	int initMode;
+	int measMode;
 	GamParam gamParam; 
 	PriorParam priorParam;
 }param;
